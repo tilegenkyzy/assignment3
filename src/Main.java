@@ -40,7 +40,7 @@ public class Main {
 
         System.out.println("BST Size: " + bst.size());
 
-        System.out.println("Value for key 40: " + bst.get(40)); // Elderberry
+        System.out.println("Value for key 40: " + bst.get(40)); 
 
         bst.delete(30);
         System.out.println("Deleted key 30. New size: " + bst.size());
